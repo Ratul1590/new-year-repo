@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+.head-section {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 200px 0;
+}
+.head-title{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.head-description{
+    font-size: 15px;
+    color: #444343;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.primary-btn{
+    padding: 15px ;
+    background-color: #F15B22;;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+.failure {
+    display: flex;
+}
+
+
+.failure-section{
+    margin-top: 380px;
+    padding-left: 114px;
+
+}
+.failure-title{
+    margin: auto;
+    width: 1400;
+   
+   
+}
+.failure-description{
+    margin: auto;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.failure, ul, li{
+    list-style: none;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+.failure-img{
+    margin-top: 80px;
+}
+.plan-container{
+    display: flex;
+    margin: 130px 170px;
+    text-align: center;
+    
+}
+.plan-sector{
+    margin-right: 5px;
+   padding-right: 10px;
+}
+.plan-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+.plan-description{
+  color: #737272;;
+}
+
+/* positive container  */
+.positive-container{
+    margin: auto;
+    background-image: linear-gradient(90deg, #c65431c4 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+   
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.positive-sector{
+    padding-top: 120px;
+    padding-left: 100px;
+    margin-bottom: 70px;
+
+}
+.postive-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;;
+    margin-bottom: 20px;
+}
+.call-me{
+    padding: 21px 36px;
+    border-radius: 5px;
+    color: #F15B22;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+/* Contact section  */
+
+.contact{
+    margin-left:  130px ;
+    margin-right:  130px ;
+    display: flex;
+    margin-top: 130px;
+    width: 1000px;
+    height: 300px;
+    color: white;
+    background-color: rgba(234, 82, 82, 0.927); 
+    padding-bottom: 50px;
+    
+}
+.future-title{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.future-contact{
+    width: 40%; 
+    margin-left: 20px;
+    text-align: left;
+}
+.footer-icon{
+    margin-left: 7px;
+}
+.subscribe{
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+h3, p {
+margin-bottom: 5px;
+padding: 10px 15px;
+}
+.footer-btn{
+    padding: 21px 36px;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+    border: 0px;
+    margin-top: 10px;
+
+}
+.footer-email{
+    padding: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border: 0px;
+}
